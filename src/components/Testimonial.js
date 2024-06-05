@@ -22,7 +22,7 @@ const Testimonial = () => {
     <div className="container mx-auto">
       <Swiper>
         {testimonialData.map((slide, index)=>{
-          {/* destructure slide */}
+     
           const {quoteImg, message, name, occupation} = slide;
           return <SwiperSlide key={index}>
             <div className='max-w-[1200px] mx-auto flex flex-col
